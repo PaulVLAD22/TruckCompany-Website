@@ -2,10 +2,7 @@ import React from 'react'
 import  {SidebarContainer,Icon,CloseIcon,SidebarWrapper,SidebarMenu,SidebarLink,SideBtnWrap,SidebarRoute} from './SidebarElements'
 import {animateScroll as scroll} from 'react-scroll'
 
-const Sidebar = ({isOpen,toggle})=>{
-  const toggleHome=()=>{
-    scroll.scrollToTop()
-  }
+const Sidebar = ({isOpen,toggle, toggleHome})=>{
   return (
     <SidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
@@ -15,10 +12,10 @@ const Sidebar = ({isOpen,toggle})=>{
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLink onClick={toggleHome}>Home</SidebarLink>
-          <SidebarLink to="education" onClick={toggle}>Education</SidebarLink>
-          <SidebarLink to="projects" onClick={toggle}>Projects</SidebarLink>
-          <SidebarLink to="others" onClick={toggle}>Others</SidebarLink>
-          <SidebarLink to="footer" onClick={toggle}>Contact</SidebarLink>
+          <SidebarLink to="education" onClick={toggle}>Cum Lucram</SidebarLink>
+          <SidebarLink to="despre_noi" onClick={toggle}>Despre Noi</SidebarLink>
+          <SidebarLink to="services" onClick={toggle}>Servicii</SidebarLink>
+          <SidebarLink to="contact" onClick={toggle}>Contact</SidebarLink>
         </SidebarMenu>
       </SidebarWrapper>
     </SidebarContainer>

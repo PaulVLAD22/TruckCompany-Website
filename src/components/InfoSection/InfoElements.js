@@ -58,7 +58,7 @@ export const TextWrapper = styled.div`
 `;
 
 export const TopLine = styled.p`
-  color: #1b949a;
+  color: #EAEA3B;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -85,8 +85,10 @@ export const DescriptionWrap = styled.div`
   margin-bottom: 35px;
 `
 export const DescriptionLine = styled.p`
+  display:flex;
+  grid-gap:2rem;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 30px;
   color: ${({ darkText }) => (darkText ? "#010606" : "white")};
   margin-bottom:20px;
 
@@ -142,5 +144,4 @@ export const BtnLink = styled(LinkR)`
     transform:scale(1.02);
   }
 `;
-
 

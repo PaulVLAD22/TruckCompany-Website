@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 100vh;
+  height: 85vh;
   position: relative;
   z-index: 1;
   :before {
@@ -42,20 +42,19 @@ export const VideoBg = styled.video`
 `;
 export const HeroContent = styled.div`
   z-index: 3;
-  max-width: 1200px;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content:center;
 
-  text-shadow: 3px 0px 7px rgba(81, 67, 21, 0.8),
-    -3px 0px 7px rgba(81, 67, 21, 0.8), 0px 4px 7px rgba(81, 67, 21, 0.8);
+  text-shadow: 3px 0px 7px #EAEA3B,
+    -3px 0px 7px rgba(81, 67, 21, 0.8), 0px 4px 7px #EAEA3B;
   font-family: "Courier New", Courier, monospace;
-  color: white;
+  color: black;
   font-size: 3rem;
   font-style: italic;
   text-align: center;
-  font-weight:550;
+  font-weight:bold;
   @media screen and (max-width: 768px) {
     font-size: 40px;
   }
@@ -73,7 +72,6 @@ export const HeroP = styled.p`
   color: white;
   font-size: 24px;
   text-align: center;
-  max-width: 500px;
   @media screen and (max-width: 768px) {
     font-size: 20px;
   }

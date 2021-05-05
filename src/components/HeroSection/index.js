@@ -1,6 +1,6 @@
 import React from "react";
-import Video from "../../videos/video.mp4";
-import Image from "../../images/1.png"
+import Video from "../../videos/da.mp4";
+import Image from "../../images/fmargini.png"
 import {
   HeroContainer,
   HeroBg,
@@ -17,7 +17,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        Crystal Logistics Services<img src={Image} style={{maxWidth:"25%"}}/>
+        Crystal Logistics Services<img src={Image} style={{maxWidth:"5%"}}/>
       </HeroContent>
     </HeroContainer>
   );

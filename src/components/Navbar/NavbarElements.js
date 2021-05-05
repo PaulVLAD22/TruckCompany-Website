@@ -74,6 +74,11 @@ export const NavLinks = styled(LinkS)`
   &:hover {
     transform: scale(1.2);
     transition: all 0.15s ease-in-out;
-    border-bottom:5px solid #1B949A;
+    border-bottom:5px solid #EAEA3B;
+  }
+  &.active {
+    border-bottom: 5px solid #EAEA3B;
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
   }
 `;

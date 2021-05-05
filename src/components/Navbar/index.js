@@ -53,12 +53,12 @@ const Navbar = ({ toggle, homeNav }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Servicii
+                  Cum Lucram
                 </NavLinks>
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="skills"
+                  to="despre_noi"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -70,12 +70,25 @@ const Navbar = ({ toggle, homeNav }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="footer"
+                  to="services"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
-                  offset={-800}
+                  offset={-80}
+                >
+                  Servicii
+                </NavLinks>
+              </NavItem>
+              
+              <NavItem>
+                <NavLinks
+                  to="contact"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact="true"
+                  offset={-80}
                 >
                   Contact
                 </NavLinks>

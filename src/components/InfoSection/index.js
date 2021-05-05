@@ -26,7 +26,7 @@ const InfoSection = ({
   description,
   buttonLabel,
   img,
-  alt,
+  alt
 }) => {
   return (
     <>
@@ -43,11 +43,6 @@ const InfoSection = ({
                   })
                   }
                 </DescriptionWrap>
-                {buttonLabel != "" && (
-                  <BtnWrap>
-                    <BtnLink to="/projects">{buttonLabel}</BtnLink>
-                  </BtnWrap>
-                )}
               </TextWrapper>
             </Column1>
             <Column2>
