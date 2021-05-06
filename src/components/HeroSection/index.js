@@ -17,7 +17,7 @@ const HeroSection = () => {
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        Crystal Logistics Services<img src={Image} style={{maxWidth:"5%"}}/>
+        Crystal Logistics Services<img src={Image} className="companyLogo"/>
       </HeroContent>
     </HeroContainer>
   );
