@@ -43,7 +43,7 @@ const Contact = ({
           <br></br>
           CUI: RO43944517
           <br></br>
-          Nr. de ordine in registrul comertului: J40/4964/19.03.2021
+          Nr. de ordine în registrul comerțului: J40/4964/19.03.2021
         </Details>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>

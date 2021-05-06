@@ -41,7 +41,7 @@ const Navbar = ({ toggle, homeNav }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks to="" onClick={toggleHome} homeButton={true}>
-                  Acasa
+                Acasă
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -53,7 +53,7 @@ const Navbar = ({ toggle, homeNav }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Cum Lucram
+                  Cum Lucrăm
                 </NavLinks>
               </NavItem>
               <NavItem>

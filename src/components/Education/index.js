@@ -14,7 +14,7 @@ import {
 const Education = () => {
   return (
     <EducationContainer id="education">
-      <EducationH1>Cum Lucram?</EducationH1>
+      <EducationH1>Cum Lucrăm?</EducationH1>
       <EducationWrapper>
         <EducationCard>
           <EducationIcon src={Icon1} />
