@@ -23,7 +23,7 @@ export const homeObjTwo = {
   topLine: "Servicii",
   headline: "Servicii",
   description:[
-    "Activitatea noastră de baza este organizarea de transporturi complete și în regim de grupaj în toată Europa cât și în traile non-EU pentru utilaje și marfă normală, cu temperatura controlată și periculoasă."
+    "Activitatea noastră de baza este organizarea de transporturi complete și în regim de grupaj în toată Europa cât și în țările non-EU pentru utilaje și marfă normală, cu temperatura controlată și periculoasă."
   ],
   buttonLabel: "Check Out",
   imgStart: false,
