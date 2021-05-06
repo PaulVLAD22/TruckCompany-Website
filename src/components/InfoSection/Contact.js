@@ -17,8 +17,8 @@ import {
   BtnWrap,
   Img,
   BtnLink,
+  Details
 } from "./InfoElements";
-import { SocialIcons } from "../Footer/FooterElements";
 
 const Contact = ({
   lightBg,
@@ -36,6 +36,15 @@ const Contact = ({
   return (
     <>
       <InfoContainer lightBg={lightBg} id={id}>
+        <Details>
+          Crystal Logistics Services S.R.L.
+          <br></br>
+          Sediu Social: Bucuresti Sectorul 6, Strada Brasov, Nr. 11, Bloc E13, Scara 1, Etaj 10, Ap. 52
+          <br></br>
+          CUI: RO43944517
+          <br></br>
+          Nr. de ordine in registrul comertului: J40/4964/19.03.2021
+        </Details>
         <InfoWrapper>
           <InfoRow imgStart={imgStart}>
             <Column1>

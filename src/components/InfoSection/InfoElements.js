@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 
 export const InfoContainer = styled.div`
+  position:relative;
   color: white;
   background: ${({ lightBg }) => (lightBg ? "white" : "#010606")};
   @media screen and (max-width: 768px) {
@@ -83,6 +84,27 @@ export const Heading = styled.h1`
 export const DescriptionWrap = styled.div`
   max-width: 550px;
   margin-bottom: 35px;
+`
+export const Details = styled.div`
+  position:absolute;
+  right:5%;
+  bottom:5%;
+  max-width:500px;
+  font-size:14px;
+  color:white;
+  line-height:20px;
+
+  @media screen and (max-width: 1024px) {
+    right:2%;
+    font-size: 12px;
+  }
+
+  @media screen and (max-width: 728px) {
+    right:2%;
+    max-width:300px;
+    font-size: 10px;
+  }
+
 `
 export const DescriptionLine = styled.p`
   display:flex;
