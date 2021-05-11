@@ -53,7 +53,7 @@ const Navbar = ({ toggle, homeNav }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Cum Lucrăm
+                  Cum Lucrăm?
                 </NavLinks>
               </NavItem>
               <NavItem>

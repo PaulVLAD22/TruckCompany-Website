@@ -18,15 +18,15 @@ const Education = () => {
       <EducationWrapper>
         <EducationCard>
           <EducationIcon src={Icon1} />
-          <EducationP>Suntem Eficienti si Transparenti.</EducationP>
+          <EducationP>Suntem Eficienți și Transparenți.</EducationP>
         </EducationCard>
         <EducationCard>
           <EducationIcon src={Icon2} />
-          <EducationP>Lucram cu contract de transport si asigurare CMR. </EducationP>
+          <EducationP>Lucrăm cu contract de transport și asigurare CMR. </EducationP>
         </EducationCard>
         <EducationCard>
           <EducationIcon src={Icon3} />
-          <EducationP>Raspundem la fiecare cerere in cel mult 30 de minute (luni- vineri 08. 00-18. 00). </EducationP>
+          <EducationP>Răspundem la fiecare cerere în cel mult 30 de minute (luni- vineri 08.00-18.00). </EducationP>
         </EducationCard>
       </EducationWrapper>
     </EducationContainer>

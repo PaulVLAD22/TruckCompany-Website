@@ -61,8 +61,9 @@ const Contact = ({
                   </DescriptionLine>
                   <DescriptionLine>
                     <AiFillHome size={40} />
-                    Bd. Ion Mihalache nr. 150, bl. 7, sc. A, et. 6, ap. 26,
-                    Sector 1, Bucuresti
+                    Adresă de corespondență:
+                    <br></br> Bd. Ion Mihalache nr. 150, bl. 7, sc. A, et. 6, ap. 26,
+                    Sector 1, București
                   </DescriptionLine>
                 </DescriptionWrap>
               </TextWrapper>
