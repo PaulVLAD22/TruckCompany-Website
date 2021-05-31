@@ -27,7 +27,7 @@ export const homeObjTwo = {
   ],
   buttonLabel: "Check Out",     
   imgStart: false,
-  img: require("../../images/svg-services.svg").default,
+  img: require("../../images/svg-logistics.svg").default,
   alt: "Car",
   darkText: true,
 };

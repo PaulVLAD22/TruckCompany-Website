@@ -3,6 +3,7 @@ import { ImgWrap } from "./InfoElements";
 import { AiFillPhone } from "react-icons/ai";
 import { AiFillMail } from "react-icons/ai";
 import { AiFillHome } from "react-icons/ai";
+import {AiFillFacebook} from "react-icons/ai"
 import {
   DescriptionLine,
   DescriptionWrap,
@@ -55,15 +56,21 @@ const Contact = ({
                   <DescriptionLine>
                     <AiFillPhone size={26}/>
                     0771.542.171
+                    <br></br> 0784253238
                   </DescriptionLine>
                   <DescriptionLine>
                     <AiFillMail size={26}/> office@crystalservices.ro
+                    <br></br>transport@crystalservices.ro
                   </DescriptionLine>
                   <DescriptionLine>
                     <AiFillHome size={40} />
                     Adresă de corespondență:
                     <br></br> Bd. Ion Mihalache nr. 150, bl. 7, sc. A, et. 6, ap. 26,
                     Sector 1, București
+                  </DescriptionLine>
+                  <DescriptionLine>
+                    <AiFillFacebook fontSize="24px"></AiFillFacebook>
+                    <a href="https://web.facebook.com/crystallogisticsservices" style={{color:"white"}}>Click Here</a>
                   </DescriptionLine>
                 </DescriptionWrap>
               </TextWrapper>

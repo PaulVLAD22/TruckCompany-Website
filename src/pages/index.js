@@ -27,9 +27,11 @@ const Home = () => {
       <Sidebar isOpen={isOpen} toggle={toggle} toggleHome={toggleHome} />
       <Navbar toggle={toggle} homeNav={true} />
       <HeroSection />
-      <Education></Education>
-      <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
+      <InfoSection {...homeObjOne} />
+      <Education></Education>
+      
+      
       <Contact {...homeObjThree}/>
     </>
   );

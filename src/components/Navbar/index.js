@@ -46,14 +46,14 @@ const Navbar = ({ toggle, homeNav }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="education"
+                  to="services"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Cum Lucrăm?
+                  Servicii
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -68,16 +68,17 @@ const Navbar = ({ toggle, homeNav }) => {
                   Despre Noi
                 </NavLinks>
               </NavItem>
+              
               <NavItem>
                 <NavLinks
-                  to="services"
+                  to="education"
                   smooth={true}
                   duration={500}
                   spy={true}
                   exact="true"
                   offset={-80}
                 >
-                  Servicii
+                  Cum Lucrăm?
                 </NavLinks>
               </NavItem>
               
