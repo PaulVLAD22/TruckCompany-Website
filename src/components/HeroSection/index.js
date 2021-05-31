@@ -18,7 +18,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         Firma de Transport<br></br> 
-        Crystal Logistics Services<img src={Image} className="companyLogo"/>
+        Crystal Logistics Services<img style={{maxWidth:"15%"}} src={Image} className="companyLogo"/>
       </HeroContent>
     </HeroContainer>
   );
