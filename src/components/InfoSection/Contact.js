@@ -56,7 +56,7 @@ const Contact = ({
                   <DescriptionLine>
                     <AiFillPhone size={26}/>
                     0771.542.171
-                    <br></br> 0784253238
+                    <br></br> 0784.253.238
                   </DescriptionLine>
                   <DescriptionLine>
                     <AiFillMail size={26}/> office@crystalservices.ro
