@@ -41,7 +41,7 @@ const Navbar = ({ toggle, homeNav }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks to="" onClick={toggleHome} homeButton={true}>
-                Acasă
+                Home
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -53,7 +53,7 @@ const Navbar = ({ toggle, homeNav }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Servicii
+                  Services
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -65,7 +65,7 @@ const Navbar = ({ toggle, homeNav }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Despre Noi
+                  About us
                 </NavLinks>
               </NavItem>
               
@@ -78,7 +78,7 @@ const Navbar = ({ toggle, homeNav }) => {
                   exact="true"
                   offset={-80}
                 >
-                  Cum Lucrăm?
+                  How We Work 
                 </NavLinks>
               </NavItem>
               

@@ -3,11 +3,10 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Despre noi",
+  topLine: "About us",
   headline: "Crystal Logistics Services",
-  description:[
-    "De ce să lucrați cu Crystal Logistics? Cu noi lucrurile devin mult mai simple, oferim servicii complete de cea mai înalta calitate în domeniul transporturilor. Expertiza noastră ne permite să proiectăm o soluție care să răspundă nevoilor dumneavoastră, astfel beneficiați de niveluri îmbunătățite de servicii, de o flexibilitate mai mare și de livrări rapide."
-  ],
+  description: [
+    "Why work with Crystal Logistics? With us things become much simpler, we offer complete services of the highest quality in the field of transport. Our expertise allows us to design a solution that meets your needs, so you benefit from improved service levels, greater flexibility and fast deliveries." ],
   buttonLabel: "",
   imgStart: true,
   img: require("../../images/svg-success.svg").default,
@@ -20,12 +19,12 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: "Servicii",
-  headline: "Transport intern și internațional",
-  description:[
-    "Activitatea noastră de baza este organizarea de transporturi complete și în regim de grupaj în toată Europa cât și în țările non-EU pentru utilaje și marfă normală, cu temperatura controlată și periculoasă."
+  topLine: "Services",
+  headline: "International Transport",
+  description: [
+    "Our main activity is the organization of complete and groupage transports throughout Europe as well as in non-EU countries, for general merchandise, temperature controlled and ADR.",
   ],
-  buttonLabel: "Check Out",     
+  buttonLabel: "Check Out",
   imgStart: false,
   img: require("../../images/svg-logistics.svg").default,
   alt: "Car",
@@ -33,16 +32,15 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id:"contact",
+  id: "contact",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: "Metode de Contact",
+  topLine: "Contact Methods",
   headline: "Contact",
   imgStart: false,
   img: require("../../images/svg-contact.svg").default,
   alt: "Contact",
   darkText: false,
-  contact:true
-  
-}
+  contact: true,
+};

@@ -40,7 +40,8 @@ const Contact = ({
         <Details>
           Crystal Logistics Services S.R.L.
           <br></br>
-          Sediu Social: Bucuresti Sectorul 6, Strada Brasov, Nr. 11, Bloc E13, Scara 1, Etaj 10, Ap. 52
+          Sediu Social: pui: Calea Floreasca
+60, Etaj 2, Birou 1, Sector 1, Bucuresti, Romania
           <br></br>
           CUI: RO43944517
           <br></br>
@@ -64,9 +65,9 @@ const Contact = ({
                   </DescriptionLine>
                   <DescriptionLine>
                     <AiFillHome size={40} />
-                    Adresă de corespondență:
-                    <br></br> Bd. Ion Mihalache nr. 150, bl. 7, sc. A, et. 6, ap. 26,
-                    Sector 1, București
+                    Home:
+                    <br></br> Calea Floreasca
+60, Etaj 2, Birou 1, Sector 1, Bucuresti, Romania
                   </DescriptionLine>
                   <DescriptionLine>
                     <AiFillFacebook fontSize="24px"></AiFillFacebook>

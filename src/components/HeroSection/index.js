@@ -17,7 +17,7 @@ const HeroSection = () => {
         <VideoBg src={Video}  />
       </HeroBg>
       <HeroContent>
-        Firma de Transport<br></br> 
+        Transportation Company<br></br> 
         Crystal Logistics Services<img style={{maxWidth:"15%"}} src={Image} className="companyLogo"/>
       </HeroContent>
     </HeroContainer>
