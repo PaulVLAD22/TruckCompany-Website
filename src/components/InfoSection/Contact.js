@@ -43,7 +43,7 @@ const Contact = ({
           Sediu Social: pui: Calea Floreasca
 60, Etaj 2, Birou 1, Sector 1, Bucuresti, Romania
           <br></br>
-          CUI: RO43944517
+          VAT: RO43944517
           <br></br>
           Nr. de ordine în registrul comerțului: J40/4964/19.03.2021
         </Details>
