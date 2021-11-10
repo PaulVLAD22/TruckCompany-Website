@@ -40,7 +40,7 @@ const Contact = ({
         <Details>
           Crystal Logistics Services S.R.L.
           <br></br>
-          Sediu Social: pui: Calea Floreasca
+          Sediu Social: Calea Floreasca
 60, Etaj 2, Birou 1, Sector 1, Bucuresti, Romania
           <br></br>
           VAT: RO43944517
