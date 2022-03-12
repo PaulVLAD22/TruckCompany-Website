@@ -1,6 +1,6 @@
 import React from "react";
 import Video from "../../images/truck1.jpg";
-import Image from "../../images/fmargini.png"
+import Image from "../../images/logo.png";
 import {
   HeroContainer,
   HeroBg,
@@ -13,12 +13,12 @@ import {
 const HeroSection = () => {
   return (
     <HeroContainer id="Home">
-      <HeroBg>
-        <VideoBg src={Video}  />
-      </HeroBg>
       <HeroContent>
-        Transportation Company<br></br> 
-        Crystal Logistics Services<img style={{maxWidth:"15%"}} src={Image} className="companyLogo"/>
+        <img
+          style={{ position: "relative", maxWidth: "80%", marginTop: "200px" }}
+          src={Image}
+          className="companyLogo"
+        />
       </HeroContent>
     </HeroContainer>
   );

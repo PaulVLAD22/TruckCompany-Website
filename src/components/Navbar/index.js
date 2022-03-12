@@ -12,10 +12,10 @@ import { IconContext } from "react-icons/lib";
 import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ toggle, homeNav }) => {
-  const [scrollNav, setScrollNav] = useState(false);
+  const [scrollNav, setScrollNav] = useState(true);
 
   const changeNav = () => {
-    if (window.scrollY >= 80) {
+    if (window.scrollY >= 0) {
       setScrollNav(true);
     } else {
       setScrollNav(false);
@@ -41,7 +41,7 @@ const Navbar = ({ toggle, homeNav }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks to="" onClick={toggleHome} homeButton={true}>
-                Home
+                  Home
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -68,7 +68,7 @@ const Navbar = ({ toggle, homeNav }) => {
                   About us
                 </NavLinks>
               </NavItem>
-              
+
               <NavItem>
                 <NavLinks
                   to="education"
@@ -78,10 +78,10 @@ const Navbar = ({ toggle, homeNav }) => {
                   exact="true"
                   offset={-80}
                 >
-                  How We Work 
+                  How We Work
                 </NavLinks>
               </NavItem>
-              
+
               <NavItem>
                 <NavLinks
                   to="contact"
